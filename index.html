@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechGear - Home</title>
+        
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    
+<body>
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: black;">
+        <div class="logo" style="display: flex; align-items: center;">
+            <img src="./images/image.png" alt="TechGear Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+            <span style="font-size: 24px; font-weight: bold;">TECHGEAR</span>
+        </div>
+        <nav >
+            <ul style="display: flex; list-style: none; justify-content: space-around; padding: 0; font-weight: bold;" >
+                <li><a href="index.html" style="text-decoration: none; color: white; padding: 10px;">Home</a></li>
+                <li><a href="products.html" style="text-decoration: none; color: white; padding: 10px;">Products</a></li>
+                <li><a href="about.html" style="text-decoration: none; color: white; padding: 10px;">About Us</a></li>
+                <li><a href="contact.html" style="text-decoration: none; color: white; padding: 10px;">Contact</a></li>
+                <li><a href="blog.html" style="text-decoration: none; color: white; padding: 10px;">Blog</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" style="font-size: 24px; background: none; border: none; cursor: pointer;">☰</button>
+    </header>
+
+    
+
+    <main>
+        <section class="hero">
+            <h1 style="color: white;">Welcome to TechGear</h1>
+            <p style="color: white;">Discover the latest in tech innovation</p>
+            <a href="products.html" class="cta-button">Shop Now</a>
+        </section>
+    
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+    
+                <div class="product-card">
+                    <img src="./images/smartwatches.jpg" alt="Smart Watch">
+                    <h3>Smart Watch</h3>
+                    <p>$199.99</p>
+                    <button>Add to Cart</button>
+                </div>
+    
+                <div class="product-card">
+                    <img src="./images/earbuds.jpg" alt="Wireless Earbuds">
+                    <h3>Wireless Earbuds</h3>
+                    <p>$149.99</p>
+                    <button>Add to Cart</button>
+                </div>
+    
+                <div class="product-card">
+                    <img src="./images/4kdrone.jpg" alt="4K Drone">
+                    <h3>4K Drone</h3>
+                    <p>$599.99</p>
+                    <button>Add to Cart</button>
+                </div>
+    
+                <div class="product-card">
+                    <img src="./images/iphone.jpg" alt="iPhone 13 Pro">
+                    <h3>iPhone 13 Pro</h3>
+                    <p>$1299.99</p>
+                    <button>Add to Cart</button>
+                </div>
+    
+                <div class="product-card">
+                    <img src="./images/camera.jpg" alt="4K Camera">
+                    <h3>4K Camera</h3>
+                    <p>$999.99</p>
+                    <button>Add to Cart</button>
+                </div>
+    
+                <div class="product-card">
+                    <img src="./images/laptop.jpg" alt="Laptop">
+                    <h3>Laptop</h3>
+                    <p>$999.99</p>
+                    <button>Add to Cart</button>
+                </div>
+    
+            </div>
+        </section>
+    </main>
+
+    
+    
+
+    <footer class="clearfix">
+       
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>TechGear is your one-stop shop for the latest technology and gadgets.</p>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:info@techgear.com">info@techgear.com</a></p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechGear. All rights reserved.</p>
+            </div>
+        </footer>
+        
+
+    <a href="#" class="back-to-top">↑</a>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome to TechGear!</h2>
+            <p>Check out our latest deals and products.</p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
